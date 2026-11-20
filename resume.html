@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Sneha | MCA Student | Poornaprajna Institute of Management</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 1.5cm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #111827;
+      background: #F3F4F6;
+      line-height: 1.5;
+      padding: 20px;
+    }
+    .resume-sheet {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      border-bottom: 2.5px solid #EA580C;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-size: 28px;
+      font-weight: 800;
+      color: #111827;
+      letter-spacing: -0.02em;
+    }
+    .headline {
+      font-size: 15px;
+      font-weight: 700;
+      color: #EA580C;
+      margin-top: 4px;
+    }
+    .contacts {
+      font-size: 13px;
+      color: #4B5563;
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .contacts a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #111827;
+      border-bottom: 1px solid #E5E7EB;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 13.5px;
+      color: #374151;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 14px;
+      color: #111827;
+    }
+    .entry-sub {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #4B5563;
+      margin-top: 2px;
+    }
+    .tag {
+      display: inline-block;
+      background: #F3F4F6;
+      border: 1px solid #E5E7EB;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-right: 4px;
+      margin-bottom: 4px;
+    }
+    .badge-in-progress {
+      color: #B45309;
+      background: #FEF3C7;
+      border: 1px solid #FCD34D;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .print-bar {
+      max-width: 800px;
+      margin: 0 auto 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-print {
+      background: #EA580C;
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .resume-sheet {
+        padding: 0;
+        box-shadow: none;
+      }
+      .print-bar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <a href="../index.html" style="color: #EA580C; text-decoration: none; font-weight: 600; font-size: 14px;">&larr; Back to Portfolio</a>
+    <button class="btn-print" onclick="window.print()">Print or Save as PDF</button>
+  </div>
+
+  <div class="resume-sheet">
+    <header class="header">
+      <h1 class="name">SNEHA</h1>
+      <div class="headline">MCA Student | Aspiring Software Developer | Python &amp; Java Enthusiast</div>
+      <div class="contacts">
+        <span>📍 Udupi, Karnataka, India</span>
+        <span>📧 <a href="mailto:acharsneha07@gmail.com">acharsneha07@gmail.com</a></span>
+        <span>📱 <a href="tel:9880108917">+91 9880108917</a></span>
+        <span>💼 <a href="https://linkedin.com/in/Sneha%20Acharya" target="_blank">LinkedIn</a></span>
+        <span>💻 <a href="https://github.com/acharsneha07-sys" target="_blank">GitHub</a></span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Professional Statement</h2>
+      <p>
+        I am an MCA student passionate about software development, programming, and emerging technologies. I have basic knowledge of Python, Java, C, HTML, CSS, and database management. I enjoy learning new technologies, solving problems, and developing innovative projects. My goal is to become a skilled software developer.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      <div>
+        <div class="entry-header">
+          <span>Master of Computer Applications (MCA)</span>
+          <span>2026 – 2028 (Pursuing)</span>
+        </div>
+        <div class="entry-sub">
+          <span>Poornaprajna Institute of Management (PIM), Udupi, Karnataka</span>
+          <span><strong>CGPA / Percentage: 70.47%</strong></span>
+        </div>
+        <p style="font-size: 13px; color: #4B5563; margin-top: 4px;">
+          Specialization: Computer Applications &amp; Software Development
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Academic Projects</h2>
+      <div style="margin-bottom: 12px;">
+        <div class="entry-header">
+          <span>Medicine Recommendation System</span>
+          <span class="badge-in-progress">In Progress</span>
+        </div>
+        <div class="entry-sub">
+          <span>Category: Machine Learning</span>
+          <span>Tech Stack: Python, HTML, CSS</span>
+        </div>
+        <ul>
+          <li>Developed a Medicine Recommendation System using Python to recommend suitable medicines based on user symptoms and predicted diseases.</li>
+          <li>Engineered to make medicine information more accessible, structured, and understandable.</li>
+          <li>Handled data processing, symptom analysis, disease prediction, and medicine recommendation functionality.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Technical Skills (Faithfully Evaluated Basic Levels)</h2>
+      <p style="margin-bottom: 6px;">
+        <strong>Core Programming Languages:</strong> Python (Basic), Java (Basic), C (Basic), R (Basic)
+      </p>
+      <p style="margin-bottom: 6px;">
+        <strong>Web Fundamentals:</strong> HTML (Basic), CSS (Basic), JavaScript (Basic)
+      </p>
+      <p style="margin-bottom: 6px;">
+        <strong>Databases &amp; Query:</strong> SQL (Basic), MySQL (Basic)
+      </p>
+      <p style="margin-bottom: 6px;">
+        <strong>Data Science &amp; IDEs:</strong> Pandas (Basic), Jupyter Notebook (Basic), VS Code (Basic)
+      </p>
+      <p style="margin-bottom: 6px;">
+        <strong>Cloud &amp; Deployment:</strong> Vercel (Basic), GitHub Pages (Basic)
+      </p>
+      <p style="margin-bottom: 6px;">
+        <strong>Core Foundations:</strong> Data Structures &amp; Algorithms, Object-Oriented Programming, Problem Solving, Testing and Debugging
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Interests &amp; Career Objectives</h2>
+      <p style="margin-bottom: 4px;">
+        <strong>Target Roles:</strong> Software Developer, Web Developer
+      </p>
+      <p style="margin-bottom: 4px;">
+        <strong>Primary Areas of Interest:</strong> Web Development, Data Science, Machine Learning
+      </p>
+      <p style="margin-bottom: 4px;">
+        <strong>Languages:</strong> English, Kannada
+      </p>
+      <p>
+        <strong>Extracurricular Activities:</strong> Dancing, Listening to music
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
